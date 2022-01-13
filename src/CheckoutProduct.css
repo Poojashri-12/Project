@@ -1,0 +1,127 @@
+.checkoutProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 10%;
+    width: 40%;
+    height: 450px;
+    max-width: 100%;
+    background-color: azure;
+    z-index: 1;
+    box-shadow: 10px 20px 15px gray;
+    float: left;
+  }
+  
+  .checkoutProduct > img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 7%;
+  }
+  .checkoutProduct__img{
+    transition: 1s;
+    cursor: pointer;
+  }
+  .checkoutProduct__img:hover {
+    transform: scale(1.1);
+  }
+  .checkoutProduct__info {
+    text-align: left;
+    margin-bottom: 10%;
+   
+  }
+  .checkoutProduct__info > p > h4 > b {
+    margin-top: 5px;
+    text-align: center;
+    color: orangered;
+    text-transform: uppercase
+  }
+  
+  .checkoutProduct__info > p > h5 {
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    margin-top: 2%;
+    background-color: orange
+  }
+  .checkoutProduct__info > i {
+    margin-top: 2%;
+  }
+  .checkoutProduct__info > h4 {
+    color:crimson;
+    text-shadow: Georgia;
+    font-weight: bold;
+  }
+  .checkoutProduct__info > h3 {
+    color: blueviolet;
+    text-shadow: Georgia;
+    font-weight: bold;
+  }
+  .checkoutProduct__info > h3 {
+  transition: 1s;
+      cursor: pointer;
+  }
+  .checkoutProduct__info > h3:hover{
+      transform: scale(1.1);
+  }
+  .checkoutProduct__rating {
+    display: flex;
+  }
+  .checked {
+    color: red;
+  }
+  .checkoutProduct__btn {
+    background-color: green;
+    border: 2px solid black;
+    margin-top: 10px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-bottom:5%;
+  }
+@media screen and (max-width:1600px){
+    body{
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:azure
+    }
+}
+
+
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:azure
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: azure
+    }
+    .checkoutProduct > img {
+      display: inline-block;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color:azure
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: azure
+    }
+    
+}

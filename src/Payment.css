@@ -1,0 +1,152 @@
+.body{
+    margin: 0%;
+}
+.payment {
+    background-color: white;
+}
+
+.payment__container > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+    box-shadow: 10px 20px 15px gray;
+  }
+
+.payment__container > h1 a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.payment__section1 {
+    display: flex;
+    padding: 20px;
+    margin: 0 ;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 10px 20px 15px gray;
+    margin-top: 5%;
+    width: 50%;
+}
+.payment__section2 {
+    display: flex;
+    padding: 20px;
+    margin: 0 ;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 10px 20px 15px gray;
+    margin-top: 5%;
+    width: 75%;
+    
+}
+.payment__section3 {
+    display: flex;
+    padding: 20px;
+    margin: 0 ;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 10px 20px 15px gray;
+    margin-top: 5%;
+    width: 40%;
+    height: 100px
+}
+.payment__section1 >hr{
+    size: 12px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.payment__section2 >hr{
+    size: 12px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.payment__section3 >hr{
+    size: 12px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.payment__title {
+    flex: 0.2;
+    text-align: center;
+    
+    
+}
+.payment__title >h3 {
+    flex: 0.4;
+    color:rgb(175, 17, 109);
+    text-align: center;  
+    margin-top: 10%; 
+}
+
+.payment__address, .payment__items, .payment__details {
+    flex: 2.0;
+}
+.payment__address{
+    color:darkviolet;
+    font-weight: bold;
+    margin-top:2%
+}
+.payment__items{
+    margin-top:-5%;
+}
+.payment__details > form {
+    max-width: 500px;
+  }
+
+.payment__details > h3 {
+    padding-bottom: 20px;
+}
+.payment__priceContainer{
+    margin-top:5%;
+    text-align: center;
+    color:darkviolet;
+    font-weight: bold;
+}
+.payment__details > form > div > button {
+    background: #ddda0c;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 5%;
+    border-color: #0d4a7c #9c7e31 #846a29;
+    color: #111;
+}
+@media screen and (max-width:1600px){
+    body{
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:azure
+    }
+}
+
+
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:azure
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: azure
+    }
+   
+}
+@media screen and (max-width:800px){
+    body{
+        background-color:azure
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: azure
+    }
+    
+}

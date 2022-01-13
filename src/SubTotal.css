@@ -1,0 +1,41 @@
+.subtotal__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 40px;
+    width: 75%;
+    height:200px;
+    padding: 20px;
+    background-color:azure;
+    border-radius:3px;
+    box-shadow: 10px 20px 15px gray;
+}
+.subtotal__info >p{
+    font-size:30px;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkmagenta
+}
+.subtotal__gift{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    font-size:20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.subtotal__gift > input{
+    margin-right:5px;
+}
+.subtotal__btn >button{
+    background-color:goldenrod;
+    border-radius: 3px;
+    width: 50%;
+    height:30px;
+    border: 2px solid;
+    margin-top: 10px;
+    color: black;
+    margin-left: 12%;
+}

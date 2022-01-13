@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+
+}
+.checkout__info{
+    display: inline-flex;
+    background-color:azure;
+    padding:20px;
+    height:max-content
+}
+.checkout__ad{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.checkout__left >h3{
+   text-align: center;
+   color:darkviolet
+}
+.checkout__left {
+   width: 100%;
+   float: left;
+   flex-direction: column;
+ }
+.user >h3{
+    font: size 10px;
+    color: deeppink;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    text-decoration:underline;
+}
+.user >h2{
+    font: size 10px;
+    color: rgb(138, 38, 13);
+}
+.checkout__title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 2px solid orangered;
+}
+@media screen and (max-width:1600px){
+    body{
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:azure
+    }
+}
+
+
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:azure
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: azure
+    }
+   
+}
+@media screen and (max-width:800px){
+    body{
+        background-color:azure
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: azure
+    }
+    
+}
